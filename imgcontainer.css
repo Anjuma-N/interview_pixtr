@@ -1,0 +1,26 @@
+.imagecontainer{
+    background:rgba(0,0,0,0.7)url('stats-bg.jpg');
+    height: 50vh;
+    width: 100%;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+
+.imagecontainer > .imgnumgen > .para3section{
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.imagecontainer > .imgnumgen > .sbpara3{
+    font-size: 12px;
+    color: #d1d0cf;
+    text-align: center;
+}

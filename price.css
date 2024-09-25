@@ -1,0 +1,197 @@
+.pricecon{
+    height: 1140px; /*680*/
+    width: 100%;
+    background-color: white;
+}
+
+.pricecon>.pricc{
+    margin-top: 70px;
+}
+
+.pricecon>.pricc>h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.pricecon>.pricc>h3::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background:red;
+    position: absolute;
+    left: 570px;
+    top: 45%;
+    
+}
+.pricecon>.pricc>h3::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background:red;
+    position: absolute;
+    right:570px;
+    top: 45%; 
+}
+
+.pricecon>.pricc>#pp11{
+    font-size: 12px;
+    color: #424242;
+    text-align: center;
+}
+
+.pricecon>.prices{
+    height: 450px;
+    width: 950px;
+    margin-left: 210px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.pricecon>.prices>.pricecol{
+    height:540px;
+    width: 310px;
+    background-color: white;
+    margin-left: 5px;
+    border: none;
+    box-shadow: 3px 3px 5px  #eeeeed;
+    border-radius: 10px;
+}
+
+.pricecon>.prices>.pricecol:hover{
+    transform: scale(1.10);
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px #eeeeed;
+}
+
+.pricecon>.prices>.pricecol>.prih3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pricecon>.prices>.pricecol>.pricon>i{
+    color: white;
+    font-size: 30px;
+}
+
+.pricecon>.prices>.pricecol>.pricon{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 90%;
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid rgb(233, 143, 143);
+    box-shadow: 3px 3px 5px gray;
+}
+
+.pricecon>.prices>.pricecol>.pripara{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.pricecon>.prices>.pricecol>.pripara>.prispa{
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+}
+
+.pricecon>.prices>.pricecol>.pripara1{
+    font-size: 12.5px;
+    font-weight: normal;
+    padding-left: 50px;
+}
+
+.pricecon>.prices>.pricecol>.pripara1>i{
+    color: green;
+}
+
+.pricecon>.prices>.pricecol>.pripara1>#rej{
+    color: black;
+}
+
+.pricecon>.prices>.pricecol>.pribtn{
+    height: 30px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 13px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.pricecon>.pricinfo{
+    height: 400px;
+    width: 950px;
+    background-color: white;
+    margin-top: 180px;
+    margin-left: 210px;
+    display: flex;
+}
+
+.pricecon>.pricinfo>.prinfo1{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+}
+
+.pricecon>.pricinfo>.prinfo1>#ppr1{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.pricecon>.pricinfo>.prinfo1>#ppr1>span{
+    font-weight: bold;
+}
+
+.pricecon>.pricinfo>.prinfo1>#ppr2{
+    font-weight: normal;
+    font-size: 12px;
+    color: gray;
+}
+
+.pricecon>.pricinfo>.prinfo2{
+    background-color: white;
+    height: 400px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricecon>.pricinfo>.prinfo2>.prin1{
+    height: 50px;  /*60*/
+    width: 650px;
+    background-color: white;
+    margin-top: 16px;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 5px;
+}
+
+.pricecon>.pricinfo>.prinfo2>.prin1:hover{
+    transform: scale(1.10);
+}
+
+.pricecon>.pricinfo>.prinfo2>#sizep{
+    height: 90px; 
+}
+
+.pricecon>.pricinfo>.prinfo2>.prin1>.pri12>.pri11{
+    color: red;
+    font-size: 14px;
+}
+
+.pricecon>.pricinfo>.prinfo2>.prin1>.pri12{
+    font-size: 13px;
+    padding-top: 15px;
+}

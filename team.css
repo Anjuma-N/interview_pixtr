@@ -1,0 +1,160 @@
+.team{
+    height: 800px;
+    width: 100%;
+    background-color: #ebebe8;
+}
+
+.team>.team1{
+    padding-top: 50px;
+}
+
+.team>.team1>h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.team>.team1>h3::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background:red;
+    position: absolute;
+    left: 570px;
+    top: 45%;
+    
+}
+.team>.team1>h3::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background:red;
+    position: absolute;
+    right:570px;
+    top: 45%; 
+}
+
+.team>.team1>#pp11{
+    font-size: 12px;
+    color: #424242;
+    text-align: center;
+}
+
+.team>.clinimg{
+    width: 950px;
+    height: 630px;
+    margin-top: 30px;
+    margin-left: 210px;
+    background-color: #ebebe8;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team>.clinimg>.clirow{
+    background-color: #ebebe8;
+    width: 950px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team>.clinimg>.clirow>.clicol{
+    height: 300px;
+    width: 300px;
+    background-color: #ebebe8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team>.clinimg>.clirow>.clicol>.clinh5{
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.team>.clinimg>.clirow>.clicol>.clipara{
+    font-size: 12px;
+    font-style: italic;
+    color: gray;
+}
+
+.team>.clinimg>.clirow>.clicol>.clipara1{
+    font-size: 11px;
+    color: rgb(90, 89, 89);
+    text-align: center;
+}
+
+.team>.clinimg>.clirow>.clicol>.climg1{
+    height: 150px;
+    width: 150px;
+    border-radius: 90%;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px gray;
+    background-image: url('team-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team>.clinimg>.clirow>.clicol>.climg2{
+    height: 150px;
+    width: 150px;
+    border-radius: 90%;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px gray;
+    background-image: url('team-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team>.clinimg>.clirow>.clicol>.climg3{
+    height: 150px;
+    width: 150px;
+    border-radius: 90%;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px gray;
+    background-image: url('team-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*---------------------------------------------------------------*/
+
+
+
+.team>.clinimg>.clirow>.clicol>.climg4{
+    height: 150px;
+    width: 150px;
+    border-radius: 90%;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px gray;
+    background-image: url('team-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team>.clinimg>.clirow>.clicol>.climg5{
+    height: 150px;
+    width: 150px;
+    border-radius: 90%;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px gray;
+    background-image: url('team-5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team>.clinimg>.clirow>.clicol>.climg6{
+    height: 150px;
+    width: 150px;
+    border-radius: 90%;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px gray;
+    background-image: url('team-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

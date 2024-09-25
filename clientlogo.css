@@ -1,0 +1,146 @@
+.clientlogosection{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+}
+
+.clientlogosection>.clilogo{
+    width: 60px;
+    height: 30px;
+    margin-left: 85px;
+    opacity: 0.5 ;
+    background-blend-mode: darken ;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.maincontent2{
+    height: 550px;
+    width: 100%;
+    background-color: #ebebe8;
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.maincontent2 > #sc1{
+    height: 250px;
+    width: 355px;
+    margin-left: 250px;
+    margin-top: 160px;
+    background-color: #ebebe8;
+}
+
+.maincontent2 > #sc1 > #sc11{
+    width: 90px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+    color: red;
+    background-color:rgb(253, 230, 235);
+    padding-top: 4px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.maincontent2 > .subcontent > #hc1{
+    font-weight: bold;
+}
+
+.maincontent2 > .subcontent > #pc1{
+    font-size: 11.5px;
+}
+
+.maincontent2 > .subcontent > #rmbtn1{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    width: 120px;
+    height: 35px;
+}
+
+.maincontent2 > #sc2{
+    height: 500px;
+    width: 250px;
+    background-color: #ebebe8;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.maincontent2 > .subcontent>#sbc1{ /*---------*/
+    height: 230px;
+    width: 250px;
+    background-color: white;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 12px #d3d3d2;
+}
+
+.maincontent2 > .subcontent>#sbc2{ /*---------*/
+    height: 230px;
+    width: 250px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 12px #d3d3d2;
+}
+
+.maincontent2 > #sc3{
+    height: 500px;
+    width: 250px;
+    background-color: #ebebe8;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.maincontent2 > .subcontent>#sbc3{ /*---------*/
+    height: 230px;
+    width: 250px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 12px #d3d3d2;
+}
+
+.maincontent2 > .subcontent>#sbc4{ /*---------*/
+    height: 230px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 12px #d3d3d2;
+}
+
+.maincontent2 > .subcontent > .sbc > .cicon1{
+    background-color:rgb(253, 230, 235);
+    margin-top: 25px;
+    margin-left: 40px;
+    height: 50px;
+    width: 50px;
+    color: red;
+    padding-left:12px ;
+    padding-top: 8px;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 90%;
+    margin-bottom: 15px;
+}
+
+.maincontent2 > .subcontent > .sbc > .sch1{
+   font-weight: bold;
+   font-size: 18px;
+   margin-left: 35px;
+}
+
+.maincontent2 > .subcontent > .sbc > .scp1{
+    font-size: 12px;
+    margin-left: 35px;
+ }
